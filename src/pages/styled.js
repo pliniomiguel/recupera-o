@@ -6,7 +6,7 @@ export default createGlobalStyle`
 
 }
 
-.seila {
+.content {
     display: flex;
     flex-direction: row;
 

@@ -5,11 +5,11 @@ const api = axios.create({
 
 export default class Api{
     async listar(){
-        let r = await api.get('/list');
+        let r = await api.get('/lista');
         return r.data;
     }
     async inserir(){
-        let r = await api.inserir('/inserir'), {id_nome};
+        let r = await api.post('/lista'), {id_nome};
         return r.data;
     }
 
