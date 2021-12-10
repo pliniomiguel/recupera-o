@@ -13,7 +13,7 @@ export default createGlobalStyle`
     padding: 25px;
 }
 
-.h5 {
+.cabecalho {
     text-align: center;
     font-family: montserrat;
     background-color: violet;
